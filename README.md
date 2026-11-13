@@ -314,15 +314,28 @@ Se pidió cambiar exclusivamente la presentación, reutilizando normalizador, va
 
 Se implementó un dashboard local en Streamlit con tres secciones: transacciones válidas, registros inválidos y análisis/métricas. Permite filtros combinados, búsqueda de ID y exportación de válidos visibles a CSV.
 
-**Evidencias:**
+### Evidencias de la interfaz Streamlit
 
-- `evidencias/streamlit_inicio.png` — carga y resumen del archivo.
-- `evidencias/streamlit_filtros.png` — filtros combinados y búsqueda.
-- `evidencias/streamlit_invalidos.png` — motivos y JSON original.
-- `evidencias/streamlit_metricas.png` — gráficos y totales por moneda.
-- `evidencias/streamlit_csv.png` — exportación abierta en Excel.
+**Figura 1. Dashboard principal y resumen de transacciones.**
 
-*Las imágenes anteriores son rutas propuestas: crear la carpeta y añadir capturas con esos nombres antes de publicar.*
+![Dashboard principal](evidencias/streamlit_inicio.png)
+
+**Figura 2. Filtros combinados y búsqueda de transacciones.**
+
+![Filtros y búsqueda](evidencias/streamlit_filtros.png)
+
+**Figura 3. Registros inválidos y motivos de rechazo.**
+
+![Registros inválidos](evidencias/streamlit_invalidos.png)
+
+**Figura 4. Métricas y totales monetarios por moneda.**
+
+![Métricas del sistema](evidencias/streamlit_metricas.png)
+
+**Figura 5. Exportación CSV visualizada en Excel.**
+
+![Exportación CSV](evidencias/streamlit_csv.png)
+
 
 ---
 
