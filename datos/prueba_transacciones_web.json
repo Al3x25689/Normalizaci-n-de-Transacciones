@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TX-100",
+    "amount": "125.50",
+    "currency": "USD",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 204,
+    "total": 10050,
+    "currency_code": "usd",
+    "created_at": "10/03/2025 14:22",
+    "state": "OK"
+  },
+  {
+    "ref": "EUR-77",
+    "amount": "€99,99",
+    "date": "2025-03-10T14:22:00Z",
+    "result": "success"
+  },
+  {
+    "id": "GBP-25",
+    "amount": "£25.00",
+    "currency": "GBP",
+    "timestamp": "2025-03-11 09:15:00",
+    "status": "pending"
+  },
+  {
+    "transaction_id": 205,
+    "total": 1000,
+    "currency_code": "JPY",
+    "created_at": "11/03/2025 10:30",
+    "state": "FAILED"
+  },
+  {
+    "id": "TX-100",
+    "amount": "20.00",
+    "currency": "USD",
+    "timestamp": "2025-03-12 11:00:00",
+    "status": "completed"
+  },
+  {
+    "ref": "AMB-1",
+    "amount": "$10",
+    "date": "2025-03-12T12:00:00Z",
+    "result": "success"
+  },
+  {
+    "id": "BAD-DATE",
+    "amount": "15.00",
+    "currency": "USD",
+    "timestamp": "ayer",
+    "status": "completed"
+  }
+]

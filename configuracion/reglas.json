@@ -1,0 +1,75 @@
+{
+  "fuentes": {
+    "SOURCE_1": {
+      "id": "id",
+      "amount": "amount",
+      "currency": "currency",
+      "timestamp": "timestamp",
+      "status": "status"
+    },
+    "SOURCE_2": {
+      "id": "transaction_id",
+      "amount": "total",
+      "currency": "currency_code",
+      "timestamp": "created_at",
+      "status": "state"
+    },
+    "SOURCE_3": {
+      "id": "ref",
+      "amount": "amount",
+      "timestamp": "date",
+      "status": "result"
+    }
+  },
+  "estados": {
+    "completed": "SUCCESS",
+    "ok": "SUCCESS",
+    "success": "SUCCESS",
+    "failed": "FAILED",
+    "pending": "PENDING"
+  },
+  "monedas": {
+    "USD": [
+      "US$"
+    ],
+    "EUR": [
+      "€"
+    ],
+    "GBP": [
+      "£"
+    ],
+    "JPY": [],
+    "MXN": [
+      "MX$"
+    ],
+    "CAD": [
+      "C$"
+    ],
+    "BRL": [
+      "R$"
+    ],
+    "CHF": [],
+    "CNY": [
+      "CN¥"
+    ],
+    "KRW": [
+      "₩"
+    ]
+  },
+  "simbolos_ambiguos": {
+    "$": [
+      "USD",
+      "MXN",
+      "CAD"
+    ],
+    "¥": [
+      "JPY",
+      "CNY"
+    ]
+  },
+  "formatos_fecha": [
+    "%Y-%m-%d %H:%M:%S",
+    "%d/%m/%Y %H:%M"
+  ],
+  "fecha_iso8601": true
+}

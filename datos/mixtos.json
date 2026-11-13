@@ -1,0 +1,65 @@
+[
+  {
+    "id": "tx_001",
+    "amount": "100.50",
+    "currency": "USD",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed"
+  },
+  {
+    "transaction_id": 204,
+    "total": 10050,
+    "currency_code": "usd",
+    "created_at": "10/03/2025 14:22",
+    "state": "OK"
+  },
+  {
+    "ref": "A-77",
+    "amount": "€99,99",
+    "date": "2025-03-10T14:22:00Z",
+    "result": "success"
+  },
+  {
+    "id": "",
+    "amount": -1,
+    "currency": "USD",
+    "timestamp": "ayer",
+    "status": "otro"
+  },
+  {
+    "ref": "ambiguo",
+    "amount": "$10",
+    "date": "2025-03-10T14:22:00Z",
+    "result": "success"
+  },
+  {
+    "id": "conflicto",
+    "amount": "€10",
+    "currency": "USD",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed"
+  },
+  {
+    "id": "desconocida",
+    "amount": 10,
+    "currency": "XYZ",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed"
+  },
+  {
+    "ref": "infinito",
+    "amount": "Infinity",
+    "date": "2025-03-10T14:22:00Z",
+    "result": "success"
+  },
+  {
+    "sin": "estructura"
+  },
+  {
+    "id": "tx_001",
+    "amount": "100.50",
+    "currency": "USD",
+    "timestamp": "2025-03-10 14:22:00",
+    "status": "completed"
+  }
+]

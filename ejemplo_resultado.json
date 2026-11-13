@@ -1,0 +1,140 @@
+{
+  "validos": [
+    {
+      "source": "SOURCE_1",
+      "id": "tx_001",
+      "timestamp": "2025-03-10T14:22:00",
+      "status": "SUCCESS",
+      "amount": "100.50",
+      "currency": "USD"
+    },
+    {
+      "source": "SOURCE_2",
+      "id": "204",
+      "timestamp": "2025-03-10T14:22:00",
+      "status": "SUCCESS",
+      "amount": "10050.00",
+      "currency": "USD"
+    },
+    {
+      "source": "SOURCE_3",
+      "id": "A-77",
+      "timestamp": "2025-03-10T14:22:00+00:00",
+      "status": "SUCCESS",
+      "amount": "99.99",
+      "currency": "EUR"
+    }
+  ],
+  "invalidos": [
+    {
+      "original": {
+        "id": "",
+        "amount": -1,
+        "currency": "USD",
+        "timestamp": "ayer",
+        "status": "otro"
+      },
+      "motivos": [
+        "ID vacío",
+        "Fecha inválida o formato no admitido",
+        "Estado desconocido",
+        "Monto negativo o no finito"
+      ],
+      "source": "SOURCE_1"
+    },
+    {
+      "original": {
+        "ref": "ambiguo",
+        "amount": "$10",
+        "date": "2025-03-10T14:22:00Z",
+        "result": "success"
+      },
+      "motivos": [
+        "Moneda ausente, desconocida o ambigua"
+      ],
+      "source": "SOURCE_3"
+    },
+    {
+      "original": {
+        "id": "conflicto",
+        "amount": "€10",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+      },
+      "motivos": [
+        "Contradicción entre símbolo y código de moneda"
+      ],
+      "source": "SOURCE_1"
+    },
+    {
+      "original": {
+        "id": "desconocida",
+        "amount": 10,
+        "currency": "XYZ",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+      },
+      "motivos": [
+        "Código de moneda desconocido"
+      ],
+      "source": "SOURCE_1"
+    },
+    {
+      "original": {
+        "ref": "infinito",
+        "amount": "Infinity",
+        "date": "2025-03-10T14:22:00Z",
+        "result": "success"
+      },
+      "motivos": [
+        "Monto no numérico o no finito"
+      ],
+      "source": "SOURCE_3"
+    },
+    {
+      "original": {
+        "sin": "estructura"
+      },
+      "motivos": [
+        "Fuente no identificable"
+      ],
+      "source": "UNKNOWN"
+    },
+    {
+      "original": {
+        "id": "tx_001",
+        "amount": "100.50",
+        "currency": "USD",
+        "timestamp": "2025-03-10 14:22:00",
+        "status": "completed"
+      },
+      "motivos": [
+        "ID duplicado"
+      ],
+      "source": "SOURCE_1"
+    }
+  ],
+  "metricas": {
+    "total_procesado": 10,
+    "porcentaje_validos": 30.0,
+    "porcentaje_invalidos": 70.0,
+    "validos": 3,
+    "invalidos": 7,
+    "por_estado": {
+      "SUCCESS": 3,
+      "FAILED": 0,
+      "PENDING": 0
+    },
+    "por_fuente": {
+      "SOURCE_1": 5,
+      "SOURCE_2": 1,
+      "SOURCE_3": 3,
+      "UNKNOWN": 1
+    },
+    "montos_por_moneda": {
+      "USD": "10150.50",
+      "EUR": "99.99"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {"id": "", "amount": -1, "currency": "USD", "timestamp": "ayer", "status": "otro"},
+  {"ref": "ambiguo", "amount": "$10", "date": "2025-03-10T14:22:00Z", "result": "success"},
+  {"id": "conflicto", "amount": "€10", "currency": "USD", "timestamp": "2025-03-10 14:22:00", "status": "completed"},
+  {"id": "desconocida", "amount": 10, "currency": "XYZ", "timestamp": "2025-03-10 14:22:00", "status": "completed"},
+  {"ref": "infinito", "amount": "Infinity", "date": "2025-03-10T14:22:00Z", "result": "success"},
+  {"sin": "estructura"}
+]

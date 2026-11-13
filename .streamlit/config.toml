@@ -1,0 +1,18 @@
+[server]
+address = "127.0.0.1"
+headless = true
+maxUploadSize = 200
+fileWatcherType = "none"
+runOnSave = false
+folderWatchBlacklist = [".venv", "respaldos", "__pycache__"]
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#21677b"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f2f5f9"
+textColor = "#203047"
+font = "sans serif"
