@@ -238,6 +238,8 @@ Se creó una interfaz Tkinter funcional con carga, filtros, tablas, métricas y 
 
 **Evidencia pendiente:** insertar captura de la interfaz Tkinter.
 
+![Prototipo de escritorio desarrollado con Tkinter](evidencias/tkinter_interfaz.png)
+
 ---
 
 ## 8. Cuarta etapa — Migración a Streamlit
